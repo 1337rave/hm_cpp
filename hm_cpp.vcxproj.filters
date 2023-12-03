@@ -4,15 +4,27 @@
     <Filter Include="Main">
       <UniqueIdentifier>{d1ca3963-9628-471b-9b1a-af3d3a1787a4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{d97f7521-6f95-4d97-bc61-6aa5af68a016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pen">
+      <UniqueIdentifier>{7bf8768a-7727-4d44-915d-e3ff4c0691ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="FileWork.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
-      <Filter>Main</Filter>
+    <ClInclude Include="FileWork.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Pen.h">
+      <Filter>Pen</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
